@@ -195,8 +195,8 @@ namespace XINYOUDI
         private string LOCAL_COMPONENT_LUA_STRTING = "local {0} = {1}:ComponentByName(\"{2}\", typeof({3}))";
         private string SELF_NODE_LUA_STRING = "self.{0} = {1}:NodeByName(\"{2}\").gameObject";
         private string SELF_COMPONENT_LUA_STRING = "self.{0} = {1}:ComponentByName(\"{2}\", typeof({3}))";
-        private string LUA_WINDOW_FILE_PATH_STRING = "Assets\\windows\\{0}";
-        private string LUA_COMPONENT_FILE_PATH_STRING = "Assets\\common\\{0}";
+        private string LUA_WINDOW_FILE_PATH_STRING = "Assets\\Lua\\windows\\{0}";
+        private string LUA_COMPONENT_FILE_PATH_STRING = "Assets\\Lua\\common\\{0}";
         private string _fileNameWithoutExt;
         private string _rootName;
         private StringBuilder _definationStringBuilder = new StringBuilder();
